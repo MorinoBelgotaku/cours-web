@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <style>
+        .piano {
+            width: 400px;
+            height: 150px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .tuile {
+            width: 20%;
+            height: 100%;
+            justify-content: center;
+            border: 1px solid black;
+        }
+
+        .color1:hover {
+            background-color: red;
+        }
+
+        .color2:hover {
+            background-color: green;
+        }
+
+        .color3:hover {
+            background-color: yellow;
+        }
+
+        .color4:hover {
+            background-color: magenta;
+        }
+
+        .color5:hover {
+            background-color: cyan;
+        }
+        .petite_tuile{
+            background-color: black;
+            height: 60px;
+            width: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>Musique</h1>
+        <div class="piano">
+            <div class="tuile color1">
+                <div class="petite_tuile"></div>
+            </div>
+            <div class="tuile color2">
+                <div class="petite_tuile"></div>
+            </div>
+            <div class="tuile color3">
+                <div class="petite_tuile"></div>
+            </div>
+            <div class="tuile color4">
+                <div class="petite_tuile"></div>
+            </div>
+            <div class="tuile color5">
+                <div class="petite_tuile"></div>
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>

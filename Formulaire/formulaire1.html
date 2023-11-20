@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire 1</title>
+    <style>
+        th{
+            text-align: right;
+        }
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <form method="post" action="cible.php">
+            <table>
+                <tr>
+                    <th>
+                        Nom d'utilisateur :
+                    </th>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Mot de passe :
+                    </th>
+                    <td>
+                        <input type="password" id="passwordUser">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <br>
+                        <input type="submit" value="Valider">
+                        <input type="reset" value="Réinitialiser">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>

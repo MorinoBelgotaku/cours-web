@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Formulaire 7</title>
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        html {
+            height: 100%;
+            width: auto;
+            background: linear-gradient(139deg, #7a1f17, #382422 15%, #242121 25%, #212121 50%, #222425 70%, #25353f 80%, #3395cd);
+            background-repeat: no-repeat;
+            padding-top: auto;
+            padding-bottom: auto;
+            padding-left: auto;
+            padding-right: auto;
+        }
+
+        body {
+            font-family: verdana;
+        }
+
+        input[type='number'] {
+            width: 40px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+            border-bottom-style: solid;
+            border-bottom-width: 2px;
+            border-bottom-color: black;
+            font-size: medium;
+        }
+
+        input[type='text'] {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+            border-bottom-style: solid;
+            border-bottom-width: 2px;
+            border-bottom-color: black;
+        }
+
+        fieldset {
+            background-color: white;
+            border-radius: 100px 0px 100px 0px;
+            object-position: center;
+            margin-top: 10%;
+            margin-bottom: 20%;
+            border-style: solid;
+            border-color: black;
+            padding: 50px;
+            border-width: 0px;
+            width: -moz-fit-content;
+            width: fit-content;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        input[type='submit'] {
+            width: 100px;
+            background-color: #ac2e22;
+            border-style: solid;
+            cursor: pointer;
+            padding: 7px;
+            color: white;
+        }
+
+        input[type='reset'] {
+            width: 100px;
+            background-color: #3395cd;
+            border-style: solid;
+            cursor: pointer;
+            padding: 7px;
+            color: white;
+        }
+
+        hr {
+            border: none;
+            border-left: 1px solid hsla(200, 10%, 50%, 100);
+            height: 200px;
+            width: 0px;
+            border-width: 2px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <form method="post" action="cible.php">
+            <table>
+                <tr>
+                    <td>
+                        <label for="dateMemo">Date mémo :</label>
+                    </td>
+                    <td align="right">
+                        <input type="date" name="dateMemo" title="Sélectionner un date">
+                    </td>
+                    <td rowspan="6" width="100px">
+                        <hr>
+                    </td>
+                    <td>
+                        <label for="montant">Montant :</label>
+                    </td>
+                    <td>
+                        <input type="number" min="1" max="1500" value="1" name="montant" title="Entrer un montant">€
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <label>Compte donneur d'ordre :</label>
+                    </td>
+                    <td align="right">
+                        <br>
+                        <select title="Comptes">
+                            <option>000-0000005-05</option>
+                        </select>
+                    </td>
+                    <td>
+                        <br>
+                        <label for="beneficiaire">Compte bénéficiaire :</label>
+                    </td>
+                    <td>
+                        <br>
+                        <input type="text" maxlength="14" name="beneficiaire"
+                            title="Entrer le nom du compte bénéficiaire">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <br>
+                        <label>Nom et adresse du donneur d'ordre :</label>
+                    </td>
+                    <td colspan="2">
+                        <br>
+                        <label>Nom et adresse du bénéficiaire :</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" size="50" maxlength="50" name="nomOrdre"
+                            title="Nom et prénom du donneur d'ordre">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" size="50" maxlength="50" name="nomBeneficiaire"
+                            title="Nom et prénom du bénéficiaire">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" size="50" maxlength="50" name="adrDonOrd" title="Adresse du donneur d'ordre">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" size="50" maxlength="50" name="adrBeneficiaire"
+                            title="Adresse du bénéficiaire">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" size="50" maxlength="50" name="adrDonOrd" title="Adresse du donneur d'ordre">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" size="50" maxlength="50" name="adrBeneficiaire"
+                            title="Adresse du bénéficiaire">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        Communication :
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <textarea title="Communication" rows="4" cols="60"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="right">
+                        <br>
+                        <input type="submit" value="Enregistrer">
+                    </td>
+                    <td></td>
+                    <td>
+                        <br>
+                        <input type="reset" value="Initialiser">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+
+</html>

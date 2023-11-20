@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire 5</title>
+    <style>
+        body{
+            font-family: arial;
+        }
+        fieldset{
+            margin-left: 40%;
+            margin-right: 40%;
+            margin-top: 20%;
+            margin-bottom: 20%;
+        }
+        fieldset table{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>
+            Choisissez votre langue :
+        </legend>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <div>
+                            <input type="radio" id="fr" name="langue" checked>
+                            <label for="fr">Français</label>
+                            <br>
+                            <input type="radio" id="nl" name="langue">
+                            <label for="nl">Néerlandais</label>
+                            <br>
+                            <input type="radio" id="en" name="langue">
+                            <label for="en">Anglais</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <input type="submit" value="Valider">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+
+</html>

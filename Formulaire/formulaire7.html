@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire 7</title>
+    <style>
+        input[type='number']{
+            width: 80px;
+        } 
+        body{
+            padding-left: 20%;
+            padding-right: 20%;
+            padding-top: 10%;
+            height: 100%;
+            width: auto;
+        }
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <form method="post" action="cible.php">
+            <table>
+                <tr>
+                    <td>
+                        Date mémo :
+                    </td>
+                    <td>
+                        <input type="date">
+                    </td>
+                    <td>
+                        Montant :
+                    </td>
+                    <td>
+                        <input type="number" min="1">EUR
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Compte donneur d'ordre :
+                    </td>
+                    <td>
+                        <select>
+                            <option>000-0000005-05</option>
+                        </select>
+                    </td>
+                    <td>
+                        Compte bénéficiaire :
+                    </td>
+                    <td>
+                        <input type="text" maxlength="14">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Nom et adresse du donneur d'ordre :
+                    </td>
+                    <td colspan="2">
+                        Nom et adresse du bénéficiaire :
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" size="45">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" size="45">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" size="45">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" size="45">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" size="45">
+                    </td>
+                    <td colspan="2">
+                        <input type="text" size="45">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Communication :
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <textarea rows="4" cols="60"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Enregistrer">
+                    </td>
+                    <td>
+                        <input type="reset" value="Initialiser">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+
+</html>
