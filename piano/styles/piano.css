@@ -15,6 +15,7 @@ body {
     background-image: url(../images/note_fond.jpg);
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
 
 .piano {
@@ -114,4 +115,23 @@ body {
 img{
     width: 200px;
     position: absolute;
+}
+.made{
+    margin-top: 50px;
+    font-family: arial black;
+    position: sticky;
+    animation: color-change 1s infinite;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    animation: rainbow-animation 35s linear infinite;
+}
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+h3 {
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
