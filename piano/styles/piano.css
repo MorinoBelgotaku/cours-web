@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.piano {
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    position: relative;
+}
+
+.tuile {
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0px 16px 0px 0px rgba(0, 0, 0, 0.66);
+    border-radius: 0 0 20px 20px;
+}
+
+.tuile:active {
+    box-shadow: inset 0 0 10px black;
+    margin-top: 16px;
+}
+
+.petite_tuile {
+    background-color: black;
+    height: 400px;
+    width: 80px;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 0 0 20px 20px;
+}
+
+.petite_tuile:active {
+    box-shadow: inset 0 0 10px white;
+    margin-top: 2%;
+}
+
+.color1:hover {
+    background-color: violet;
+}
+
+.color2:hover {
+    background-color: indigo;
+}
+
+.color3:hover {
+    background-color: blue;
+}
+
+.color4:hover {
+    background-color: green;
+}
+
+.color5:hover {
+    background-color: yellow;
+}
+
+.color6:hover {
+    background-color: orange;
+}
+
+.color7:hover {
+    background-color: red;
+}
+
+.note {
+    display: flex;
+    justify-items: flex-end;
+    justify-content: center;
+    margin-top: 350%;
+    position: static;
+    font-family: verdana;
+    font-weight: bolder;
+    user-select: none;
+}
