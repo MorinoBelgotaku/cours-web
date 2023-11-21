@@ -10,35 +10,50 @@
 
 <body>
     <center>
-        <h1>Piano</h1>
-        <h2>A vous de jouer !</h2>
-
+        <div class="titre">
+            <div>
+                <h1>Piano</h1>
+                <h2>A vous de jouer !</h2>
+            </div>
+            <img src="./images/note1.png" style="right: 0; top: 0; transform: rotate(-10deg);">
+            <img src="./images/note2.png" style="left: 0; bottom: 0;">
+        </div>
         <div class="piano">
-            <div class="petite_tuile" style="left: 10%;"></div>
-            <div class="petite_tuile" style="left: 24.5%;"></div>
-            <div class="petite_tuile" style="left: 38.75%;"></div>
-            <div class="petite_tuile" style="left: 67.5%;"></div>
-            <div class="petite_tuile" style="left: 81.5%;"></div>
+            <div class="petite_tuile" style="left: 10%;" id="do#">
+                <div class="note_noir">Do#</div>
+            </div>
+            <div class="petite_tuile" style="left: 24.5%;" id="re#">
+                <div class="note_noir">Ré#</div>
+            </div>
+            <div class="petite_tuile" style="left: 38.75%;" id="fa#">
+                <div class="note_noir">Fa#</div>
+            </div>
+            <div class="petite_tuile" style="left: 67.5%;" id="sol#">
+                <div class="note_noir">Sol#</div>
+            </div>
+            <div class="petite_tuile" style="left: 81.5%;" id="la#">
+                <div class="note_noir">La#</div>
+            </div>
             <div class="tuile color1" id="do">
-                <div class="note">Do</div>
+                <div class="note_blanche">Do</div>
             </div>
             <div class="tuile color2" id="re">
-                <div class="note">Ré</div>
+                <div class="note_blanche">Ré</div>
             </div>
             <div class="tuile color3" id="mi">
-                <div class="note">Mi</div>
+                <div class="note_blanche">Mi</div>
             </div>
             <div class="tuile color4" id="fa">
-                <div class="note">Fa</div>
+                <div class="note_blanche">Fa</div>
             </div>
             <div class="tuile color5" id="sol">
-                <div class="note">Sol</div>
+                <div class="note_blanche">Sol</div>
             </div>
             <div class="tuile color6" id="la">
-                <div class="note">La</div>
+                <div class="note_blanche">La</div>
             </div>
             <div class="tuile color7" id="si">
-                <div class="note">Si</div>
+                <div class="note_blanche">Si</div>
             </div>
         </div>
         <script src="./script/script.js"></script>
