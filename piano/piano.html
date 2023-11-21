@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <style>
+        .piano {
+            width: 1000px;
+            height: 550px;
+            display: flex;
+        }
+
+        .tuile {
+            width: 20%;
+            height: 100%;
+            justify-content: center;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+
+        .tuile:active {
+            box-shadow: inset 0 0 10px black;
+        }
+
+        .petite_tuile {
+            background-color: black;
+            height: 70%;
+            width: 40%;
+            right: 50%;
+            position: relative;
+        }
+
+        .petite_tuile_inv {
+            height: 70%;
+            width: 40%;
+            right: 50%;
+            position: relative;
+        }
+
+        .color1:hover {
+            background-color: violet;
+        }
+
+        .color2:hover {
+            background-color: indigo;
+        }
+
+        .color3:hover {
+            background-color: blue;
+        }
+
+        .color4:hover {
+            background-color: green;
+        }
+
+        .color5:hover {
+            background-color: yellow;
+        }
+
+        .color6:hover {
+            background-color: orange;
+        }
+
+        .color7:hover {
+            background-color: red;
+        }
+
+        .note {
+            display: flex;
+            justify-items: flex-end;
+            justify-content: center;
+            margin-top: 80%;
+            position: static;
+            font-family: verdana;
+            font-weight: bolder;
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>Musique</h1>
+        <div class="piano">
+            <div class="tuile color1" id="do">
+                <div class="petite_tuile_inv"></div>
+                <div class="note">Do</div>
+            </div>
+            <div class="tuile color2" id="re">
+                <div class="petite_tuile"></div>
+                <div class="note">Ré</div>
+            </div>
+            <div class="tuile color3" id="mi">
+                <div class="petite_tuile"></div>
+                <div class="note">Mi</div>
+            </div>
+            <div class="tuile color4" id="fa">
+                <div class="petite_tuile"></div>
+                <div class="note">Fa</div>
+            </div>
+            <div class="tuile color5" id="sol">
+                <div class="petite_tuile"></div>
+                <div class="note">Sol</div>
+            </div>
+            <div class="tuile color6" id="la">
+                <div class="petite_tuile"></div>
+                <div class="note">La</div>
+            </div>
+            <div class="tuile color7" id="si">
+                <div class="petite_tuile"></div>
+                <div class="note">Si</div>
+            </div>
+        </div>
+        <script>
+            const audio_do = new Audio("./audio/piano/do.wav");
+            const audio_re = new Audio("./audio/piano/re.wav");
+            const audio_mi = new Audio("./audio/piano/mi.wav");
+            const audio_fa = new Audio("./audio/piano/fa.wav");
+            const audio_sol = new Audio("./audio/piano/sol.wav");
+            const audio_la = new Audio("./audio/piano/la.wav");
+            const audio_si = new Audio("./audio/piano/si.wav");
+            const piano_do = document.getElementById("do");
+            const piano_re = document.getElementById("re");
+            const piano_mi = document.getElementById("mi");
+            const piano_fa = document.getElementById("fa");
+            const piano_sol = document.getElementById("sol");
+            const piano_la = document.getElementById("la");
+            const piano_si = document.getElementById("si");
+
+            piano_do.addEventListener("click", () => {
+                audio_do.play();
+            });
+            piano_re.addEventListener("click", () => {
+                audio_re.play();
+            });
+            piano_mi.addEventListener("click", () => {
+                audio_mi.play();
+            });
+            piano_fa.addEventListener("click", () => {
+                audio_fa.play();
+            });
+            piano_sol.addEventListener("click", () => {
+                audio_sol.play();
+            });
+            piano_la.addEventListener("click", () => {
+                audio_la.play();
+            });
+            piano_si.addEventListener("click", () => {
+                audio_si.play();
+            });
+
+            document.addEventListener('keyup', () => {
+                audio_do.play();
+            });
+
+        </script>
+    </center>
+</body>
+
+</html>
