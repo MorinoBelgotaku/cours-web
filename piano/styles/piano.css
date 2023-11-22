@@ -143,12 +143,12 @@ h3 {
 /* Responsive */
 @media (min-width: 1025px) and (max-width: 1280px) {
     .piano {
-        width: 500px;
-        height: 250px;
+        width: 750px;
+        height: 375px;
     } 
     .petite_tuile{
         height: 65%;
-        width: 50px;
+        width: 75px;
     }
     .note_noir {
         margin-top: 250%;
@@ -161,6 +161,10 @@ h3 {
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+    body {
+        width: 100%;
+        top: 1em;
+    }
     .piano {
         width: 500px;
         height: 250px;
@@ -179,10 +183,18 @@ h3 {
     .note_blanche {
         margin-top: 300%;
         font-size: 14px;
+    }
+    .titre {
+        opacity: 100%;
+        display: none;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    body {
+        width: 100%;
+        top: 1em;
+    }
     .piano {
         width: 500px;
         height: 250px;
@@ -201,6 +213,10 @@ h3 {
     .note_blanche {
         margin-top: 300%;
         font-size: 14px;
+    }
+    .titre {
+        opacity: 100%;
+        display: none;
     }
 }
 
