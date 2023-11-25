@@ -20,6 +20,9 @@ id_snk.addEventListener("mouseout", () => {
     control.textContent = 'Play';
 });
 
+id_snk.addEventListener("click", () => {
+    window.open('https://www.crunchyroll.com/fr/series/GR751KNZY/attack-on-titan', '_blank');
+});
 // SAO
 const audio_sao_op = new Audio("./audio/sao_op.mp3");
 const id_sao = document.getElementById("sao");
@@ -35,3 +38,7 @@ id_sao.addEventListener("mouseout", () => {
     audio_sao_op.pause();
     control.textContent = 'Play';
 }); 
+
+id_sao.addEventListener("click", () => {
+    window.open('https://www.crunchyroll.com/fr/series/GR49G9VP6/sword-art-online', '_blank');
+});
