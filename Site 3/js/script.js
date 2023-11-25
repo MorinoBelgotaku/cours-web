@@ -1,9 +1,14 @@
+// Retour au top
+function return_top() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 // SNK
 const audio_snk_op = new Audio("./audio/snk_op.mp3");
 const id_snk = document.getElementById("snk");
 
 id_snk.addEventListener("mouseover", () => {
-    audio_snk_op.currentTime = 68;
+    audio_snk_op.currentTime = 67;
     audio_snk_op.volume = 0.3;
     audio_snk_op.play();
     control.textContent = 'Pause';
