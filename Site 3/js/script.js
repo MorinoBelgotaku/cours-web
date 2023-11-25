@@ -48,7 +48,7 @@ const audio_ditf_op = new Audio("./audio/ditf_op.mp3");
 const id_ditf = document.getElementById("ditf");
 
 id_ditf.addEventListener("mouseover", () => {
-    audio_ditf_op.currentTime = 55;
+    audio_ditf_op.currentTime = 56;
     audio_ditf_op.volume = 0.3;
     audio_ditf_op.play();
     control.textContent = 'Pause';
