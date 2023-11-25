@@ -42,3 +42,23 @@ id_sao.addEventListener("mouseout", () => {
 id_sao.addEventListener("click", () => {
     window.open('https://www.crunchyroll.com/fr/series/GR49G9VP6/sword-art-online', '_blank');
 });
+
+// DITF
+const audio_ditf_op = new Audio("./audio/ditf_op.mp3");
+const id_ditf = document.getElementById("ditf");
+
+id_ditf.addEventListener("mouseover", () => {
+    audio_ditf_op.currentTime = 55;
+    audio_ditf_op.volume = 0.3;
+    audio_ditf_op.play();
+    control.textContent = 'Pause';
+});
+
+id_ditf.addEventListener("mouseout", () => {
+    audio_ditf_op.pause();
+    control.textContent = 'Play';
+}); 
+
+id_ditf.addEventListener("click", () => {
+    window.open('https://www.crunchyroll.com/fr/series/GY8VEQ95Y/darling-in-the-franxx', '_blank');
+});
