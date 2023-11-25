@@ -95,6 +95,7 @@ nav {
     text-align: center;
     margin: -2px -2px;
     border-radius: 0 0 2em 2em;
+    pointer-events: none;
 }
 
 .bannieres {
@@ -119,6 +120,7 @@ nav {
     margin: 25px;
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    user-select: none;
 }
 
 .banniere:hover {
@@ -128,6 +130,10 @@ nav {
     box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
+.bannieres a {
+    text-decoration: none;
+    cursor: default;
+}
 /* L'Attaque des Titans */
 .snk {
     background-image: url(./img/posters/snk_poster.jpg);
@@ -284,4 +290,10 @@ nav {
         margin: 3em 7em -2em 7em;
     }
     
+}
+
+@media (max-width: 640px) {
+    .contenair  {
+        margin: 1em 1em -1em 1em;
+    }
 }
