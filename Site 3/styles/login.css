@@ -60,6 +60,15 @@ button {
     cursor: pointer;
 }
 
-.submit {
-    margin-top: 10px;
+.signup {
+    margin-top: 5px;
+}
+
+.signup a {
+    color: #5747e3;
+    text-decoration: none;
+}
+
+.signup a:hover{
+    text-decoration: black solid;
 }
