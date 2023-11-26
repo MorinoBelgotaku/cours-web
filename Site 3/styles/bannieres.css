@@ -1,0 +1,218 @@
+/* Bannières */
+.titre-liste hr {
+    border: 1px solid #5747e3;
+}
+
+.titre-anime {
+    color: white;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0.5em;
+    text-align: center;
+    margin: -2px -2px;
+    border-radius: 0 0 2em 2em;
+    pointer-events: none;
+}
+
+.bannieres {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.banniere {
+    display: flex;
+    height: 22em;
+    width: 12em;
+    border: 3px solid;
+    border-radius: 2em;
+    align-items: flex-end;
+    background-position: center;
+    background-size: cover;
+    background-position-y: 25%;
+    font-weight: bolder;
+    transition: .3s;
+    margin: 25px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.banniere:hover {
+    background-position: center;
+    background-size: cover;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.bannieres a {
+    text-decoration: none;
+    cursor: default;
+}
+
+/* L'Attaque des Titans */
+.snk {
+    background-image: url(../img/posters/snk_poster.jpg);
+    border-color: #924222;
+}
+
+.snk div {
+    background-color: #924222;
+}
+
+.snk:hover {
+    background-image: url(../img/gif/snk.gif);
+}
+
+/* Sword Art Online */
+.sao {
+    background-image: url(../img/posters/sao_poster.jpg);
+    border-color: #397fbe;
+
+}
+
+.sao:hover {
+    background-image: url(../img/gif/kirito.gif);
+}
+
+.sao div {
+    background-color: #397fbe;
+}
+
+/* DITF */
+.ditf {
+    background-image: url(../img/posters/ditf_poster.jpg);
+    border-color: #dd2a2d;
+
+}
+
+.ditf:hover {
+    background-image: url(../img/gif/ditf.gif);
+}
+
+.ditf div {
+    background-color: #dd2a2d;
+}
+
+/* ReZero */
+.rezero {
+    background-image: url(../img/posters/rezero_poster.jpg);
+    border-color: #a41d39;
+
+}
+
+.rezero:hover {
+    background-image: url(../img/gif/rezero.gif);
+}
+
+.rezero div {
+    background-color: #a41d39;
+}
+
+/* Jujutsu Kaisen */
+.jjk {
+    background-image: url(../img/posters/jjk_poster.jpg);
+    border-color: #7e3a40;
+
+}
+
+.jjk:hover {
+    background-image: url(../img/gif/jjk.gif);
+}
+
+.jjk div {
+    background-color: #7e3a40;
+}
+
+/* Made in Abyss */
+.mia {
+    background-image: url(../img/posters/mia_poster.jpg);
+    border-color: #5f8a6f;
+
+}
+
+.mia:hover {
+    background-image: url(../img/gif/mia.gif);
+}
+
+.mia div {
+    background-color: #5f8a6f;
+}
+
+/* Goblin Slayer */
+.goblinslayer {
+    background-image: url(../img/posters/goblinslayer_poster.jpg);
+    border-color: #5c79a2;
+
+}
+
+.goblinslayer:hover {
+    background-image: url(../img/gif/goblinslayer.gif);
+}
+
+.goblinslayer div {
+    background-color: #5c79a2;
+}
+
+/* The Rising of the Shield Hero  */
+.trotsh {
+    background-image: url(../img/posters/trotsh_poster.jpg);
+    border-color: #3d7e4b;
+
+}
+
+.trotsh:hover {
+    background-image: url(../img/gif/trotsh.gif);
+}
+
+.trotsh div {
+    background-color: #3d7e4b;
+}
+
+/* Horimiya  */
+.horimiya {
+    background-image: url(../img/posters/horimiya_poster.jpg);
+    border-color: #d0bc8b;
+
+}
+
+.horimiya:hover {
+    background-image: url(../img/gif/horimiya.gif);
+}
+
+.horimiya div {
+    background-color: #d0bc8b;
+}
+
+/* No Game No Life  */
+.ngnl {
+    background-image: url(../img/posters/ngnl_poster.jpg);
+    border-color: #c67a90;
+
+}
+
+.ngnl:hover {
+    background-image: url(../img/gif/ngnl.gif);
+}
+
+.ngnl div {
+    background-color: #c67a90;
+}
+
+/* The Eminence in Shadow */
+.teis {
+    background-image: url(../img/posters/teis_poster.jpg);
+    border-color: #3d698d;
+}
+
+.teis:hover {
+    background-image: url(../img/gif/teis.gif);
+}
+
+.teis div {
+    background-color: #3d698d;
+}

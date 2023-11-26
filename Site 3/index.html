@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./img/icon.png">
-    <link href="./style.css" rel="stylesheet">
+    <link href="./styles/main.css" rel="stylesheet">
+    <link href="./styles/bannieres.css" rel="stylesheet">
+    <link href="./styles/header_footer.css" rel="stylesheet">
+    <script src="./js/top.js"></script>
     <title>Accueil - Tonkanime</title>
 </head>
 
@@ -15,10 +18,11 @@
             <a href="index.html" class="liens">Tonkanime</a>
         </div>
         <nav>
-            Se connecter
+            <a href="login.html">Se connecter</a>
+            <a href="#">A propos</a>
         </nav>
     </header>
-    <div class="contenair">
+    <div class="container">
         <div class="titre-liste">
             Liste d'animés
             <hr>
@@ -39,7 +43,7 @@
                     Darling in The Franxx
                 </div>
             </div>
-            <div class="banniere rezero">
+            <div class="banniere rezero" id="rezero">
                 <div class="titre-anime">
                     Re:ZERO -Starting Life in Another World-
                 </div>
@@ -49,7 +53,7 @@
                     Jujutsu Kaisen
                 </div>
             </div>
-            <div class="banniere mia">
+            <div class="banniere mia" id="mia">
                 <div class="titre-anime">
                     Made in Abyss
                 </div>
@@ -74,6 +78,11 @@
                     No Game No Life
                 </div>
             </div>
+            <div class="banniere teis" id="teis">
+                <div class="titre-anime">
+                    The Eminence in Shadow
+                </div>
+            </div>
         </div>
     </div>
     <script src="./js/script.js"></script>
@@ -84,7 +93,7 @@
     </div>
 
     <footer>
-
+        Site créé par Morino.
     </footer>
 </body>
 
