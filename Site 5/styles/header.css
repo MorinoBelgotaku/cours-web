@@ -1,0 +1,15 @@
+header {
+    background-color: #1d1d1d;
+    padding: 25px 100px;
+    display: flex;
+}
+
+nav a {
+    padding: 0 10px;
+    color: white;
+    transition: .2s;
+}
+
+nav a:hover {
+    color: grey;
+}

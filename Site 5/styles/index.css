@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eaeefa;
+    font-family: verdana;
+}
+
+.container, footer {
+    margin: 0 10em;
+}
+
+footer {
+    padding-bottom: 20px;
+}
+th {
+    text-align: left;
+    font-weight: normal;
+}
+
+.explication {
+    text-align: justify;
+    margin-right: 10px;
+}
+
+img {
+    height: 100px;
+}
+
+.col1 {
+    width: 70%;
+    height: 50px;
+}
+
+.col2 {
+    background-color: white;
+    text-align: center;
+    height: 150px;
+}
+
+section{
+    margin: 0;
+}
+
+.top {
+    vertical-align: top;
+}
+
+table {
+    margin: 0 3em;
+}
+
+ol{
+    margin-bottom: 3em;
+}

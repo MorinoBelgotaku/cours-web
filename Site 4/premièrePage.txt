@@ -1,0 +1,17 @@
+﻿Cours de HTML, CSS et JavaScript
+Introduction:
+  Dans cette première page web,nous allons définir brièvement trois notions de base: HTML, CSS et JavaScript
+Notions            
+  HTML
+     Hypertext Markup Language (HTML) est le format de données conçu pour construire des documents hypertexte pouvant être visualisés sur le Web.
+C’est un langage de balisage. Ces balises servent à structurer le contenu d'un document pour le mettre en forme : à chaque balise correspond une
+mise en forme standard (que nous pourrons personnaliser par la suite)
+  CSS
+     Les feuilles de style en cascade1, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un langage informatique
+qui décrit la présentation des documents HTML
+  JavaScript
+     JavaScript avaScript est,comme son nom l'indique,un langage de scripts. De ce point de vue, il permet à des programmeurs de 
+réaliser leurs pages web sous une forme particulièrement attrayante et fonctionnelle.
+
+Mention légale  -  Condition d'utilisation  -  Contact
+    

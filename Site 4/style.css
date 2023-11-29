@@ -1,0 +1,46 @@
+body {
+    background-color: #1097ca;
+    margin: 0 4em 7em 0;
+    font-family: arial;
+}
+
+header,
+footer {
+    background-color: #60adf7;
+    text-align: center;
+}
+
+footer {
+    padding-bottom: 15px;
+}
+
+ol {
+    background-color: white;
+    padding-bottom: 6em;
+    margin: 0;
+}
+
+.explication {
+    background-color: #60adf7;
+    width: 375px;
+    text-align: justify;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    right: 500px;
+    width: auto;
+    height: 100%;
+    margin-left: 250px;
+}
+
+.flex {
+    display: flex;
+    align-items: start;
+    padding-left: 50px;
+}
