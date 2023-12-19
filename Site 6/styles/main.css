@@ -16,6 +16,7 @@ header {
     position: relative;
     width: 140px;
     left: -500px;
+    -webkit-user-drag: none;
 }
 nav {
     position: relative;
@@ -50,14 +51,6 @@ nav {
     width: 700px;
 }
 
-footer {
-    height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(0, 124, 124);
-}
-
 .container {
     width: 700px;
     height: 500px;
@@ -74,4 +67,12 @@ footer {
 .container div p {
     margin-top: 10px;
     text-align: justify;
+}
+
+footer {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 124, 124);
 }
