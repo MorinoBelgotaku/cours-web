@@ -1,0 +1,47 @@
+#principal {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}
+
+#enTete {
+    width: 700px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #FFF;
+    border-bottom: 1px solid #71C0EA;
+    background-image: url(…/…/image.jpeg);
+    background-repeat: no-repeat;
+}
+
+#menu {
+    width: 700px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    background-color: #FFF;
+    padding: 0;
+    margin: 0;
+}
+
+#contenu {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    background-color: #FFF;
+    top: 180px;
+    left: 0px;
+    padding: 27px;
+    border-top: 1px solid #71C0EA;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}

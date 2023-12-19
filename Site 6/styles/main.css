@@ -1,6 +1,7 @@
 * {
     margin: 0;
     top: 0;
+    box-sizing: content-box;
     font-family: Verdana;
 }
 
