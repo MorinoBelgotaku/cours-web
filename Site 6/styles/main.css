@@ -11,18 +11,18 @@ header {
     align-items: center;
     justify-content: center;
     background-color: rgb(0, 124, 124);
+    justify-content: space-between;
+    padding: 0px 120px;
 }
 
 .logo {
     position: relative;
     width: 140px;
-    left: -500px;
     -webkit-user-drag: none;
 }
 nav {
     position: relative;
     display: flex;
-    margin-left: -140px;
 }
 
 nav a {
