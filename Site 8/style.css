@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background-color: grey;
+    font-family: arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    border-radius: 100px 50px 50px 250px;
+}

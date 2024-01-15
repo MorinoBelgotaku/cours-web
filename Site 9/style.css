@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    height: auto;
+    margin: 20px auto 300px auto;
+    padding: 10px;
+    background-color: white;
+    width: 500px;
+}
+
+.container h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    animation: defilement 4s linear;
+}
+
+@keyframes defilement {
+    0% {
+        right: 600px
+    }
+    25% {
+        transform: translateX(600px)
+    }
+
+    50% {
+        transform: translateX(400px)
+    }
+
+    75% {
+        transform: translateX(200px)
+    }
+    100% {
+        transform: translateX(0)
+    }
+
+}
+
+.container p {
+    text-align: justify;
+}

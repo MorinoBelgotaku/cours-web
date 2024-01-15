@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: grey;
+    font-family: arial;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100px;
+    box-shadow: 0px 40px 20px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: x-large;
+    position: sticky;
+    z-index: 2;
+    top: 0; 
+}
+
+.container {
+    height: 1000px;
+    margin: 20px 300px;
+    border-radius: 20px;
+    background-color: white;
+}
