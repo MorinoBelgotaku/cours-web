@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <main>
+        <h1>Formulaire de participation</h1>
+        <p>Compléter le formulaire. Les champs marqué de <span>*</span> sont obligatoires.</p>
+        <form method="POST" target="#" class="brd-green">
+            <fieldset class="brd-green">
+                <legend>Contact:</legend>
+                <fieldset>
+                    <legend>Civilité:</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="radio" id="mr" name="civilite">
+                                <label for="mr">Mr</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="mme" name="civilite" checked>
+                                <label for="mme">Mme</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="mlle" name="civilite">
+                                <label for="mlle">Mr</label>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <table>
+                    <tr>
+                        <td>
+                            <label>Nom:</label>
+                        </td>
+                        <td>
+                            <input type="text" class="brd-green"><span>*</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Prénom:</label>
+                        </td>
+                        <td>
+                            <input type="text" class="brd-green"><span>*</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Adresse:</label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Ex: 32 Rue Verrerie, 7500">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Téléphone:</label>
+                        </td>
+                        <td>
+                            <input type="tel" placeholder="EX: 0612345">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" placeholder="Ex: azerty@hotmail.fr" class="brd-green"><span>*</span>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Informations personnelles</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label>Date de naissance:</label>
+                        </td>
+                        <td>
+                            <input type="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Formation</label>
+                        </td>
+                        <td>
+                            <select>
+                                <option value="">Licence</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Expérience:</label>
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Compétences</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label>Technologies:</label>
+                        </td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" id="aspnet" name="aspnet" checked>
+                                        <label for="aspnet">ASP.NET</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" id="php" name="php">
+                                        <label for="php">PHP</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" id="jee" name="jee">
+                                        <label for="jee">JEE</label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Niveau HTML5:</label>
+                        </td>
+                        <td>
+                            <input type="range">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Niveau CSS3:</label>
+                        </td>
+                        <td>
+                            <input type="range">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Niveau JavaScript:</label>
+                        </td>
+                        <td>
+                            <input type="range">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+                <table style="margin-top: 15px">
+                    <tr>
+                        <td>
+                            Fichier
+                        </td>
+                        <td>
+                            <input type="file">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="message">Message</label>
+                        </td>
+                        <td>
+                            <textarea placeholder="Saisir le message ici" id="message" class="brd-green"></textarea><span>*</span>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit">
+                <input type="reset" value="Effacer">
+                <input type="button" value="Test de validité">
+        </form>
+    </main>
+</body>
+
+</html>
